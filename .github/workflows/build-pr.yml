@@ -46,7 +46,7 @@ jobs:
       - run: sh -x build.sh ci-pr osx
 
   osx-26_0_1:
-    runs-on: macos-14
+    runs-on: macos-15
     name: Test osx on Xcode 26.0.1
     env:
       DEVELOPER_DIR: '/Applications/Xcode_26.0.1.app/Contents/Developer'
@@ -55,7 +55,7 @@ jobs:
       - run: sh -x build.sh ci-pr osx
 
   osx-encryption-26_0_1:
-    runs-on: macos-14
+    runs-on: macos-15
     name: Test osx-encryption on Xcode 26.0.1
     env:
       DEVELOPER_DIR: '/Applications/Xcode_26.0.1.app/Contents/Developer'
@@ -73,7 +73,7 @@ jobs:
       - run: sh -x build.sh ci-pr swiftpm
 
   swiftpm-26_0_1:
-    runs-on: macos-14
+    runs-on: macos-15
     name: Test swiftpm on Xcode 26.0.1
     env:
       DEVELOPER_DIR: '/Applications/Xcode_26.0.1.app/Contents/Developer'
@@ -100,7 +100,7 @@ jobs:
       - run: sh -x build.sh ci-pr swiftpm-debug
 
   swiftpm-debug-26_0_1:
-    runs-on: macos-14
+    runs-on: macos-15
     name: Test swiftpm-debug on Xcode 26.0.1
     env:
       DEVELOPER_DIR: '/Applications/Xcode_26.0.1.app/Contents/Developer'
@@ -109,7 +109,7 @@ jobs:
       - run: sh -x build.sh ci-pr swiftpm-debug
 
   swiftpm-address-26_0_1:
-    runs-on: macos-14
+    runs-on: macos-15
     name: Test swiftpm-address on Xcode 26.0.1
     env:
       DEVELOPER_DIR: '/Applications/Xcode_26.0.1.app/Contents/Developer'
@@ -118,7 +118,7 @@ jobs:
       - run: sh -x build.sh ci-pr swiftpm-address
 
   swiftpm-thread-26_0_1:
-    runs-on: macos-14
+    runs-on: macos-15
     name: Test swiftpm-thread on Xcode 26.0.1
     env:
       DEVELOPER_DIR: '/Applications/Xcode_26.0.1.app/Contents/Developer'
@@ -136,7 +136,7 @@ jobs:
       - run: sh -x build.sh ci-pr ios-static
 
   ios-static-26_0_1:
-    runs-on: macos-14
+    runs-on: macos-15
     name: Test ios-static on Xcode 26.0.1
     env:
       DEVELOPER_DIR: '/Applications/Xcode_26.0.1.app/Contents/Developer'
@@ -154,7 +154,7 @@ jobs:
       - run: sh -x build.sh ci-pr ios
 
   ios-26_0_1:
-    runs-on: macos-14
+    runs-on: macos-15
     name: Test ios on Xcode 26.0.1
     env:
       DEVELOPER_DIR: '/Applications/Xcode_26.0.1.app/Contents/Developer'
@@ -172,7 +172,7 @@ jobs:
       - run: sh -x build.sh ci-pr watchos
 
   watchos-26_0_1:
-    runs-on: macos-14
+    runs-on: macos-15
     name: Test watchos on Xcode 26.0.1
     env:
       DEVELOPER_DIR: '/Applications/Xcode_26.0.1.app/Contents/Developer'
@@ -190,7 +190,7 @@ jobs:
       - run: sh -x build.sh ci-pr tvos
 
   tvos-26_0_1:
-    runs-on: macos-14
+    runs-on: macos-15
     name: Test tvos on Xcode 26.0.1
     env:
       DEVELOPER_DIR: '/Applications/Xcode_26.0.1.app/Contents/Developer'
@@ -208,7 +208,7 @@ jobs:
       - run: sh -x build.sh ci-pr visionos
 
   visionos-26_0_1:
-    runs-on: macos-14
+    runs-on: macos-15
     name: Test visionos on Xcode 26.0.1
     env:
       DEVELOPER_DIR: '/Applications/Xcode_26.0.1.app/Contents/Developer'
@@ -235,7 +235,7 @@ jobs:
       - run: sh -x build.sh ci-pr osx-swift
 
   osx-swift-26_0_1:
-    runs-on: macos-14
+    runs-on: macos-15
     name: Test osx-swift on Xcode 26.0.1
     env:
       DEVELOPER_DIR: '/Applications/Xcode_26.0.1.app/Contents/Developer'
@@ -253,7 +253,7 @@ jobs:
       - run: sh -x build.sh ci-pr ios-swift
 
   ios-swift-26_0_1:
-    runs-on: macos-14
+    runs-on: macos-15
     name: Test ios-swift on Xcode 26.0.1
     env:
       DEVELOPER_DIR: '/Applications/Xcode_26.0.1.app/Contents/Developer'
@@ -271,7 +271,7 @@ jobs:
       - run: sh -x build.sh ci-pr tvos-swift
 
   tvos-swift-26_0_1:
-    runs-on: macos-14
+    runs-on: macos-15
     name: Test tvos-swift on Xcode 26.0.1
     env:
       DEVELOPER_DIR: '/Applications/Xcode_26.0.1.app/Contents/Developer'
@@ -280,7 +280,7 @@ jobs:
       - run: sh -x build.sh ci-pr tvos-swift
 
   osx-swift-evolution-26_0_1:
-    runs-on: macos-14
+    runs-on: macos-15
     name: Test osx-swift-evolution on Xcode 26.0.1
     env:
       DEVELOPER_DIR: '/Applications/Xcode_26.0.1.app/Contents/Developer'
@@ -289,7 +289,7 @@ jobs:
       - run: sh -x build.sh ci-pr osx-swift-evolution
 
   ios-swift-evolution-26_0_1:
-    runs-on: macos-14
+    runs-on: macos-15
     name: Test ios-swift-evolution on Xcode 26.0.1
     env:
       DEVELOPER_DIR: '/Applications/Xcode_26.0.1.app/Contents/Developer'
@@ -298,7 +298,7 @@ jobs:
       - run: sh -x build.sh ci-pr ios-swift-evolution
 
   tvos-swift-evolution-26_0_1:
-    runs-on: macos-14
+    runs-on: macos-15
     name: Test tvos-swift-evolution on Xcode 26.0.1
     env:
       DEVELOPER_DIR: '/Applications/Xcode_26.0.1.app/Contents/Developer'
@@ -316,7 +316,7 @@ jobs:
       - run: sh -x build.sh ci-pr catalyst
 
   catalyst-26_0_1:
-    runs-on: macos-14
+    runs-on: macos-15
     name: Test catalyst on Xcode 26.0.1
     env:
       DEVELOPER_DIR: '/Applications/Xcode_26.0.1.app/Contents/Developer'
@@ -334,7 +334,7 @@ jobs:
       - run: sh -x build.sh ci-pr catalyst-swift
 
   catalyst-swift-26_0_1:
-    runs-on: macos-14
+    runs-on: macos-15
     name: Test catalyst-swift on Xcode 26.0.1
     env:
       DEVELOPER_DIR: '/Applications/Xcode_26.0.1.app/Contents/Developer'
@@ -343,7 +343,7 @@ jobs:
       - run: sh -x build.sh ci-pr catalyst-swift
 
   xcframework-26_0_1:
-    runs-on: macos-14
+    runs-on: macos-15
     name: Test xcframework on Xcode 26.0.1
     env:
       DEVELOPER_DIR: '/Applications/Xcode_26.0.1.app/Contents/Developer'
@@ -370,7 +370,7 @@ jobs:
       - run: sh -x build.sh ci-pr cocoapods-osx
 
   cocoapods-osx-26_0_1:
-    runs-on: macos-14
+    runs-on: macos-15
     name: Test cocoapods-osx on Xcode 26.0.1
     env:
       DEVELOPER_DIR: '/Applications/Xcode_26.0.1.app/Contents/Developer'
@@ -379,7 +379,7 @@ jobs:
       - run: sh -x build.sh ci-pr cocoapods-osx
 
   cocoapods-ios-static-26_0_1:
-    runs-on: macos-14
+    runs-on: macos-15
     name: Test cocoapods-ios-static on Xcode 26.0.1
     env:
       DEVELOPER_DIR: '/Applications/Xcode_26.0.1.app/Contents/Developer'
@@ -388,7 +388,7 @@ jobs:
       - run: sh -x build.sh ci-pr cocoapods-ios-static
 
   cocoapods-ios-26_0_1:
-    runs-on: macos-14
+    runs-on: macos-15
     name: Test cocoapods-ios on Xcode 26.0.1
     env:
       DEVELOPER_DIR: '/Applications/Xcode_26.0.1.app/Contents/Developer'
@@ -397,7 +397,7 @@ jobs:
       - run: sh -x build.sh ci-pr cocoapods-ios
 
   cocoapods-watchos-26_0_1:
-    runs-on: macos-14
+    runs-on: macos-15
     name: Test cocoapods-watchos on Xcode 26.0.1
     env:
       DEVELOPER_DIR: '/Applications/Xcode_26.0.1.app/Contents/Developer'
@@ -406,7 +406,7 @@ jobs:
       - run: sh -x build.sh ci-pr cocoapods-watchos
 
   cocoapods-tvos-26_0_1:
-    runs-on: macos-14
+    runs-on: macos-15
     name: Test cocoapods-tvos on Xcode 26.0.1
     env:
       DEVELOPER_DIR: '/Applications/Xcode_26.0.1.app/Contents/Developer'
@@ -415,7 +415,7 @@ jobs:
       - run: sh -x build.sh ci-pr cocoapods-tvos
 
   cocoapods-catalyst-26_0_1:
-    runs-on: macos-14
+    runs-on: macos-15
     name: Test cocoapods-catalyst on Xcode 26.0.1
     env:
       DEVELOPER_DIR: '/Applications/Xcode_26.0.1.app/Contents/Developer'
@@ -424,7 +424,7 @@ jobs:
       - run: sh -x build.sh ci-pr cocoapods-catalyst
 
   ios-swiftui-26_0_1:
-    runs-on: macos-14
+    runs-on: macos-15
     name: Test ios-swiftui on Xcode 26.0.1
     env:
       DEVELOPER_DIR: '/Applications/Xcode_26.0.1.app/Contents/Developer'
