@@ -82,7 +82,7 @@ targets.each { |name, filter|
     if not filter.call(version)
       next
     end
-    image = 'macos-15'
+    image = 'macos-15-arm64'
     output_file << """
   #{name}-#{version.gsub(' ', '_').gsub('.', '_')}:
     runs-on: #{image}
