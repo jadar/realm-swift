@@ -1,15 +1,15 @@
 x.y.z Release notes (yyyy-MM-dd)
 =============================================================
 
-* Update build scripts for Xcode 26.0.1.
+* Update build scripts for Xcode 26.
 * Drop support for Xcode < 16.3.
 * Prebuilt binaries are no longer code signed.
 
 ### Compatibility
 
-* Carthage release for Swift is built with Xcode 26.0.1.
+* Carthage release for Swift is built with Xcode 26.1.
 * CocoaPods: 1.10 or later.
-* Xcode: 16.3-26.0.1
+* Xcode: 16.3-26.1
 
 20.0.3 Release notes (2025-06-15)
 =============================================================

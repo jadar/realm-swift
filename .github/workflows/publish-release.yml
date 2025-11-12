@@ -1,8 +1,8 @@
 name: Publish release
 on: workflow_dispatch
 env:
-  XCODE_VERSION: "['16.3', '16.4', '26.0.1']"
-  TEST_XCODE_VERSION: '26.0.1'
+  XCODE_VERSION: "['16.3', '16.4', '26.0.1', '26.1']"
+  TEST_XCODE_VERSION: '26.1'
 jobs:
   prepare:
     runs-on: ubuntu-latest
