@@ -957,10 +957,12 @@ case "$COMMAND" in
         echo "Building with Xcode Version $(xcodebuild -version)"
         export REALM_EXTRA_BUILD_ARGUMENTS='GCC_GENERATE_DEBUGGING_SYMBOLS=NO -allowProvisioningUpdates'
         target="$2"
-        if [[ "$target" == visionos ]] && (( $(xcode_version_major) < 16 )); then
-            echo 'Installing visionOS'
-            xcodebuild -downloadPlatform visionOS
-        fi
+        case "$target" in
+            ios*) xcodebuild -downloadPlatform iOS ;;
+            tvos*) xcodebuild -downloadPlatform tvOS ;;
+            visionos*) xcodebuild -downloadPlatform visionOS ;;
+            watchos*) xcodebuild -downloadPlatform watchOS ;;
+        esac
         sh build.sh "verify-$target"
         ;;
 
